@@ -167,3 +167,6 @@ config.json
 
 # ignore logs
 *.log
+
+# ignore image cash folder
+.image_cash/

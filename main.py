@@ -20,7 +20,7 @@ def main(config: dict):
         @client.on(events.NewMessage(chats=channel_id))
         async def handler(event):
             if hasattr(event.message.media, "photo"):
-                download_res = await client.download_media(event.message.media, './downloads/image')
+                download_res = await client.download_media(event.message.media, './.image_cash/image')
                 files = {'file': (open(download_res, 'rb'))}
                 requests.post(url, files=files)
                 os.remove(download_res)
