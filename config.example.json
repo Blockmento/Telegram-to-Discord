@@ -5,9 +5,8 @@
         "_prod_url":"https://discordapp.com/api/webhooks/x/y"
     },
     "telegram":{
-        "_comment":"Channel ID can be obtained by running the script with a dummy value, then picking from the list of available channels",
         "api_id":1234,
         "api_hash":"124325",
-        "channel_id":1234
+        "channel_name":"abcd"
     }
 }
